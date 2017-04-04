@@ -16,7 +16,7 @@ class Model {
 		// we use the previous function to get all the books and then we return the requested one.
 		// in a real life scenario this will be done through a db select command
 		$allBooks = $this->getBookList();
-		print_r($allBooks);
+		//print_r($allBooks);
 		return $allBooks[$title];
 	}
 	
